@@ -33,9 +33,9 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navContent">
 
           {/* Links */}
-          <ul className={`navbar-nav mx-auto gap-3 p-4 px-5 rounded-5 ${styles.middleLinksBox}`}>
+          <ul className={`navbar-nav mx-auto gap-5 p-4 px-5 rounded-5 ${styles.middleLinksBox}`}>
 
-            <li className="nav-item">
+            <li className="nav-item ">
               <NavLink
                 to="/"
                 className={({ isActive }) =>

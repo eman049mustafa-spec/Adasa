@@ -21,7 +21,6 @@
     color: #df8d22;
     font-size: 14px;
 }
-
 .brand img {
   width: 42px;
 }
@@ -33,13 +32,14 @@
   font-weight: 500;
   transition: 0.3s;
 }
-
 .link:hover {
   color: rgb(202, 202, 202);
 }
-
 .active {
-  color: #ff7a00 !important;
+  background: linear-gradient(135deg,#ff7118,#F74D00) !important;
+  color: white !important;
+  border-radius: 999px;
+  padding: 10px 20px;
 }
 
 /* Search */
@@ -54,7 +54,7 @@
 
 /* Orange button */
 .primaryBtn {
-  background: #ff7a00;
+  background: linear-gradient(135deg, #ff7118, #F74D00) !important;
   color: white;
   border: none;
   /* padding: 8px 18px;
@@ -62,7 +62,6 @@
   font-weight: 300; */
   transition: 0.3s;
 }
-
 .primaryBtn:hover {
   opacity: 0.85;
 }
