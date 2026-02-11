@@ -1,0 +1,71 @@
+.myNav {
+  background: #0f0f10;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  /* backdrop-filter: blur(8px); */
+  padding: 14px 0;
+}
+
+/* fixed-top */
+:global(body) {
+  padding-top: 90px;
+}
+
+/* Logo */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white !important;
+}
+.brand small{
+    color: #df8d22;
+    font-size: 14px;
+}
+
+.brand img {
+  width: 42px;
+}
+
+/* Links */
+.link {
+  color: #cfcfcf;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: rgb(202, 202, 202);
+}
+
+.active {
+  color: #ff7a00 !important;
+}
+
+/* Search */
+.search {
+  background: #1a1a1a;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  color: white;
+  outline: none;
+}
+
+/* Orange button */
+.primaryBtn {
+  background: #ff7a00;
+  color: white;
+  border: none;
+  /* padding: 8px 18px;
+  border-radius: 999px;
+  font-weight: 300; */
+  transition: 0.3s;
+}
+
+.primaryBtn:hover {
+  opacity: 0.85;
+}
+.middleLinksBox{
+    border: 1px solid rgba(255,255,255,0.06);
+}
