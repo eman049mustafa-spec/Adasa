@@ -33,7 +33,7 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navContent">
 
           {/* Links */}
-          <ul className={`navbar-nav mx-auto gap-5 p-4 px-5 rounded-5 ${styles.middleLinksBox}`}>
+          <ul className={`navbar-nav mx-auto gap-5 p-4  rounded-5 ${styles.middleLinksBox}`}>
 
             <li className="nav-item ">
               <NavLink
@@ -48,7 +48,7 @@ export default function NavBar() {
 
             <li className="nav-item">
               <NavLink
-                to="/products"
+                to="/blogs"
                 className={({ isActive }) =>
                   `${styles.link} ${isActive ? styles.active : ""}`
                 }
@@ -80,7 +80,9 @@ export default function NavBar() {
             />
 
             <button className={`p-3 px-4 rounded-5  ${styles.primaryBtn}`}>
-              ابدأ القراءة
+                <NavLink to={"/blogs"} className={`${styles.link} text-white`}>
+                     ابدأ القراءة
+                </NavLink>
             </button>
 
           </div>

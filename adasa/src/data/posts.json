@@ -506,11 +506,12 @@
     }
   ],
   "categories": [
-    { "name": "إضاءة", "count": 3, "color": "emerald" },
-    { "name": "بورتريه", "count": 3, "color": "purple" },
-    { "name": "مناظر طبيعية", "count": 2, "color": "blue" },
-    { "name": "تقنيات", "count": 5, "color": "orange" },
-    { "name": "معدات", "count": 3, "color": "emerald" }
+    { "name": "جميع المقالات", "count": 28, "color": "emerald" },
+    { "name": "إضاءة", "count": 4, "color": "emerald" },
+    { "name": "بورتريه", "count": 6, "color": "purple" },
+    { "name": "مناظر طبيعية", "count": 4, "color": "blue" },
+    { "name": "تقنيات", "count": 9, "color": "orange" },
+    { "name": "معدات", "count": 5, "color": "emerald" }
   ],
   "siteInfo": {
     "name": "عدسة",
